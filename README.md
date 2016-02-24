@@ -1,4 +1,4 @@
-## Curriculum Vitae for Alan Orth
+## Curriculum Vitae for Luis Urrea
 A CV written in LaTeX using the [moderncv](http://www.ctan.org/pkg/moderncv) class.
 
 ### Sample
