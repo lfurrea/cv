@@ -9,7 +9,7 @@
 \documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
-\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvstyle{banking}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 \nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
@@ -24,14 +24,14 @@
 %\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\firstname{Alan}
-\familyname{Orth}
-%\title{A great man}                          % optional, remove / comment the line if not wanted
-% \address{Nairobi}{Kenya}    % optional, remove / comment the line if not wanted
-\mobile{+254 726 388 307}                     % optional, remove / comment the line if not wanted
-\email{aorth@mjanja.ch}                          % optional, remove / comment the line if not wanted
-\homepage{github.com/alanorth}                    % optional, remove / comment the line if not wanted
-%\extrainfo{additional information}            % optional, remove / comment the line if not wanted
+\firstname{Luis}
+\familyname{Urrea}
+\title{Backend/Distributed Systems Engineer}                          % optional, remove / comment the line if not wanted
+%\address{San Jose}{Costa Rica}    % optional, remove / comment the line if not wanted
+\mobile{+506 6040 3624}                     % optional, remove / comment the line if not wanted
+\email{lfurrea@gmail.com}                          % optional, remove / comment the line if not wanted
+\homepage{lfurrea.github.io}                    % optional, remove / comment the line if not wanted
+\extrainfo{Valid US H1B Visa up to Aug,2017}            % optional, remove / comment the line if not wanted
 %\quote{The quieter you become, the more you are able to hear...}                            % optional, remove / comment the line if not wanted
 
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
@@ -50,84 +50,81 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\section{Experience}
-\subsection{Vocational}
-\cventry{2011--current}{Systems Analyst}{International Livestock Research Institute}{Nairobi, Kenya}{}{Oversee research-computing infrastructure and support scientists\newline{}
-  \begin{itemize}
-  \item Automate role-based infrastructure deployment and configuration management using Ansible
-  \item Design and implement next-generation storage and computing platform using GlusterFS, SLURM, and 389 LDAP
-  \item Deploy KVM virtual machines for students, web applications, and test environments
-  \item Implement and maintain tape backups of research data using Amanda Backup
-  \item Maintain and deploy source code customizations of the \href{https://cgspace.cgiar.org}{CGIAR DSpace} institutional repository
-  \item Install and configure bioinformatics applications like BLAST+, QIIME, structure, and R
-  \item Deploy field data collection system using Android and ODK Collect/Aggregate
-  \item Give introduction to Linux courses and hold regular user group meetings
-  \end{itemize}}
-\cventry{2009--2011}{Linux Consultant}{International Livestock Research Institute}{Nairobi, Kenya}{}{{}
-  \begin{itemize}
-  \item Administer Rocks Linux cluster and bioinformatics applications
-  \item Provide technical support on network and server issues to Biotechnology group
-  \item Administer physical and virtual servers for students and researchers
-  \item Develop modules to supplement functionality of off-the-shelf LIMS
-  \item Develop standard operating procedures and train staff in their use
-  \end{itemize}}
-\cventry{2007--2009}{Lecturer and Systems Administrator}{Holy Rosary College}{Tala, Kangundo}{}{Volunteer with VSO Jitolee, Kenya\newline{}
-\begin{itemize}
-\item Manage and update Linux servers running Squid proxy, Apache, and Samba file services
-\item Troubleshoot satellite modem, routers, network cables, and LAN switches
-\item Maintain workstations for staff and student computer lab
-\item Taught courses:
-  \begin{itemize}
-  \item Intro to Programming and Algorithms (C++)
-  \item Network Essentials
-  \item Object-oriented Programming (C++)
-  \item Operating Systems II (Linux)
-  \end{itemize}
-\end{itemize}}
-\cventry{2004--2007}{Systems Administrator}{Upward Bound Organization}{Chico, CA}{}{{}
-\begin{itemize}
-\item Manage Mac OS X servers running Apache, Mailman, and OpenLDAP
-\item Manage student computer lab and network-attached student home directories
-\item Monitor security of public-facing servers, including remote administration over SSH
-\item Technical support and maintenance of staff workstations
-\item Write documentation of configuration and maintenance procedures for servers
-\item Interview and train replacement systems administrator upon my departure
-\end{itemize}}
-
-\subsection{Internships}
-\cventry{June, 2006}{Systems Administrator}{Chevron Corporation}{San Ramon, CA}{}{Three-month internship with the Technical Computing team\newline{}
-\begin{itemize}
-\item Write interactive Perl script to help administrators maintain synchronized application repositories on distributed Linux and Solaris servers
-\item Write interactive Perl script to ease installation and configuration of high-performance cluster nodes using SystemImager
-\end{itemize}}
-
-\cventry{June, 2005}{Systems Analyst}{Chevron Corporation}{San Ramon, CA}{}{Three-month internship with the Application Server Design team\newline{}
-\begin{itemize}
-\item Install and support Windows 2000/2003 servers and their web applications (.NET)
-\item Write documentation in preparation for annual team audit (SOX)
-\item Document F5 BIG-IP DNS settings used for fail over and geographic load balancing for internal and external corporate web applications
-\end{itemize}}
-
 \section{Education}
-\cventry{2002--2007}{Computer Information Systems}{California State University}{Chico}{\textit{3.19}}{Emphasis on Computer Science, minor in Business}  % arguments 3 to 6 can be left empty
+\cventry{2000--2002}{Computer Science}{Universidad Estatal a Distancia}{}{}{}  % arguments 3 to 6 can be left empty
+\cventry{1993--2000}{Electrical Engineering}{Universidad de Costa Rica}{Emphasis on telecommunication systems}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2007}{Cisco Certified Network Associate}{CCNA}{}{}{}  % arguments 3 to 6 can be left empty
 
-\section{Computer skills}
-\cvitem{Proficient}{vim, KVM, git, bash, regular expressions, CSS, Apache httpd, mod\_rewrite, nginx}
-\cvitem{Intermediate}{MySQL, PostgreSQL, PHP, Apache Tomcat, gerrit, TLS, Jinja2}
-\cvitem{Padawan}{\LaTeX}
+\section{Experience}
+\subsection{2600Hz}
+\cventry{July 2015--present}{Software Engineer}{}{San Francisco, CA}{}{Software development and consultation for Mastmobile.com on integrating and optimizing a WebRTC product with the Kazoo platform \newline{}}
+  \begin{itemize}
+  \item Added support for network maps to the Kazoo Erlang based platform to support various VLANS and complex network topologies for calls.
+  \item Automated role-based WebRTC infrastructure deployment and configuration management using Ruby. 
+  \item Consulting on continuous improvement of voice quality and root cause analysis of multiple call connection issues.
+  \item Developed analysis tools using Erlang to aid troubleshooting of DTMF related issues on WebRTC.
+  \end{itemize}
+\subsection{Sendhub}
+\cventry{October 2013--July 2015}{Software Engineer}{}{Menlo Park, CA}{Voice Platform Developer and Tech Lead \newline{}}{}
+  \begin{itemize}
+  \item \textbf{Optimization} Developed and implemented a near realtime visualization stack based on (Logstash/Ruby, ElasticSearch, Kibana) to obtain meaningful data from  key elements, systems and protocols of the voice platform. This engine was used as the source of information for continuous improvement of grade of service metrics for voice calls and provided significant leads in finding the root cause of multiple call connection issues.
+   \item Led the investigation and made key recommendations for continuous improvement in quality and behavior of deployed SIP clients.
+   \item \textbf{Functionality} Designed and developed critical features using Erlang for Sendhub's integration with the second generation VoIP platform.
+   \item Designed and developed internal tools (Erlang/Ruby) to streamline the process of testing calls and diagnosing misbehaving SIP clients.
+   \item I was responsible for writing and maintaining cookbooks for the automation of deployment and  management of the development, staging and production environments using Chef in its hosted and solo versions.
+   \item I was also responsible for writing Ruby, awk, shell scripts required on the voice platform as all changes had to be automated.
+   \item I was a periodic on call engineer for the non voice Python/Django stack which usually involved using AWS monitoring utilities to troubleshoot and diagnose operation issues.
+   \item I was also part of the one week a month support rotation geared towards building and maintaining internal tools using Python/Flask, Celery, Redis and also heavy use of AWS EC2, RDS, Opsworks, Cloudwatch, Route 53, VPC, ELB, S3.
+  \item \textbf{Leadership} Led investigation on technology selection for Sendhub's second generation VoIP platform.
+  \item Successfully managed timelines in preparation for the second generation Voice platform launch.
+  \item Led management, deployment and orchestration of voice platform stack.
+  \item Led communications and technical agenda with all third party service providers of the voice platform.
+  \item \textbf{Recruiting} Performed technical interviews for backend team candidates.
+\end{itemize}
+\subsection{Smart Strategy Online}
+\cventry{January 2013--October 2013}{Project Manager}{}{San Jose, Costa Rica}{}{}
+  \begin{itemize}
+  \item Led a small team focused in developing scalable cloud based solutions for Voice and Web applications.
+  \item Successfully deployed several cloud based Call Center solutions and integrated them with legacy systems via in house built web services in C\#, Ruby, Javascript.
+\end{itemize}
+\subsection{Simple Communication Services}
+\cventry{May 2008--January 2013}{Founder and Project Manager}{}{San Jose, Costa Rica}{}{}
+\begin{itemize}
+\item Led a small team focused in designing, integrating and maintaining robust and cost effective networking solutions all within budget and agreed time frame
+\item Successfully deployed a highly available VoIP platform providing PBX services for up to 300 users for a goverment institution in Costa Rica
+\end{itemize}
+\subsection{Cisco TAC}
+\cventry{October 2004--May 2008}{Customer Support Engineer - Multiservices VoIP}{}{San Jose, Costa Rica}{}{}
+\begin{itemize}
+\item Provided technical support for Cisco Systems customers worldwide, diagnosing and resolving issues in small and large scale converged VoIP networks
+\item Worked with multidisciplinary groups, network administrators and Telecom providers, using debugging tools and lab simulations to diagnose systems and provide solutions that would meet customer's needs
+\item As a tech lead I was in charge of mentoring new hires, writing training material and delivering training in new technologies for the team
+\end{itemize}
+\subsection{Eaton Electrical}
+\cventry{April 2002--January 2003}{Systems Administrator}{}{San Jose, Costa Rica}{}{}
+\begin{itemize}
+\item Maintaining, monitoring and upgrading server infrastructure. Windows NT, Linux, HP-UX
+\item Maintained and configured VPN infrastructure for remote access services of telecommuters
+\item Developed a Help Desk asset management and trouble ticket web application that aided in task management and reduced help desk service level respose times
+\end{itemize}
 
-\section{Languages}
-\cvitemwithcomment{English}{Native}{Written and spoken}
-\cvitemwithcomment{Swahili}{Intermediate}{Written and spoken}
-\cvitemwithcomment{Bulgarian}{Beginner}{Written and spoken}
+\section{Skills}
+\cvitem{Development}{Erlang/OTP, Ruby, Javascript}
+\cvitem{Technology}{OTP, Sinatra, Rails, RabbitMQ, ElasticSearch, CouchDB, Riak, Postgres, MySQL, AWS, Chef, git, iptables ninja}
+\cvitem{Protocols}{WebRTC, SIP, H.323, QoS, RTP, RTCP, TCP/IP, STUN}
 
 \section{Interests}
-\cvitem{Android}{Porting Android to new devices}
-\cvitem{Open-source}{Contributing to open-source software projects}
-\cvitem{Community}{\href{https://nairobilug.or.ke}{Nairobi GNU/Linux Users Group}}
-\cvitem{Blogging}{\href{https://alaninkenya.org}{Personal adventures in Kenya}, \href{https://mjanja.ch}{Adventures in "underground" tech}}
-\cvitem{GNU/Linux}{Arch Linux, CentOS, Debian, Fedora, Gentoo, Ubuntu}
-\cvitem{The Universe}{The Sloan Great Wall, The Huge-Large Quasar Group, 42}
+\cvitem{Distributed Systems}{Hadoop, Apache Spark, riak core, Paxos, Raft}
+\cvitem{Media and Image Processing}{C/C++}
+
+\section{Workshops and Conferences}
+\cvitemwithcomment{KazooCon 2015}{Conference and Workshops}{October 5-6, 2015- San Francisco, CA}
+\cvitemwithcomment{Erlang Factory SF}{Conference}{March 26-27, 2015-San Francisco, CA}
+\cvitemwithcomment{Erlang Factory SF}{Kazoo Developer and Ops training}{March 3-5, 2014-San Francisco, CA}
+
+\section{Languages}
+\cvitemwithcomment{Spanish}{Native}{Written and spoken}
+\cvitemwithcomment{English}{Proficient}{Written and spoken}
 
 %\renewcommand{\listitemsymbol}{-~}            % change the symbol for lists
 
